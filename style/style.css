@@ -10,6 +10,10 @@ header{
 }
 
 main{
-    height: calc(100vh-50px);
+    height: calc(100vh - 50px);
     width: calc(100vw - 200px);
+}
+
+main section{
+    margin-bottom: 2em;
 }
