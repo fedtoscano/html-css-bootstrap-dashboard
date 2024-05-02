@@ -12,6 +12,4 @@ header{
 main{
     height: calc(100vh-50px);
     width: calc(100vw - 200px);
-    border: 1px solid indianred;
-    background-color: red;
 }
