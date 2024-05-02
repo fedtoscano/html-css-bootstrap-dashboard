@@ -14,6 +14,10 @@ main{
     width: calc(100vw - 200px);
 }
 
-main section{
+section{
     margin-bottom: 2em;
+}
+
+.active-image{
+    width: 300px;
 }
