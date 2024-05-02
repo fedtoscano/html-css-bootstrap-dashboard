@@ -1,0 +1,10 @@
+#mobile-logo{
+    width: 40px;
+}
+header{
+    height: 50px;
+}
+#navbar{
+    width: 200px;
+    height: calc(100vh - 50px);
+}
