@@ -30,7 +30,7 @@
                 <div class="col-2 d-flex justify-content-end align-items-center">
                     <i class="fa-solid fa-list ms-4 d-none d-md-inline"></i>
                     <i class="fa-solid fa-bell rounded ms-4" id="bell-icon"></i>
-                    <i class="fa-solid fa-question rounded-circle bg-secondary p-1 px-2 ms-4 d-none d-md-inline"></i>
+                    <i class="fa-solid fa-question rounded-circle bg-secondary p-1 px-2 ms-4 d-none d-md-inline" id="question-icon"></i>
                     <i class="fa-solid fa-ellipsis-vertical ms-4 d-none d-md-inline"></i>
                 </div>
             </div>
@@ -80,10 +80,10 @@
                                 <h2>125</h2>
                             </div>
 
-                            <div class="col-12 col-lg-4 text-lg-center mb-2 mb-lg-0">
+                            <div class="col-12 col-lg-4 text-lg-center mb-2 mb-lg-0 align-items-center">
                                 <p class="d-inline">Nuovo studente</p>
                                 <!-- OFFCANVAS -->
-                                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">+</button>
+                                <button class="btn btn-primary border border-white rounded color-white py-2 px-3 ms-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">+</button>
                                 
                                 <div class="offcanvas offcanvas-end w-75" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
                                     <div class="offcanvas-header">
@@ -107,9 +107,11 @@
                                                     </div>
     
                                                     <div class="col-6 mb-3 text-start">
-                                                        <label for="formGroupExampleInput" class="form-label">Email</label>
-                                                        <span class="input-group-text" id="basic-addon1">@</span>
-                                                        <input type="text" class="form-control" placeholder="Email" aria-label="email">
+                                                        <label for="autoSizingInputGroup">Email</label>
+                                                        <div class="input-group">
+                                                            <div class="input-group-text">@</div>
+                                                            <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="Email">
+                                                        </div>
                                                     </div>
 
                                                     <div class="col-6 mb-3 text-start">
@@ -118,9 +120,11 @@
                                                     </div>
 
                                                     <div class="col-6 mb-3 text-start">
-                                                        <label for="formGroupExampleInput" class="form-label">Email</label>
-                                                        <span class="input-group-text" id="basic-addon1">@</span>
-                                                        <input type="text" class="form-control" placeholder="Email" aria-label="email">
+                                                        <label for="autoSizingInputGroup">Email</label>
+                                                        <div class="input-group">
+                                                            <div class="input-group-text">@</div>
+                                                            <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="Email">
+                                                        </div>
                                                     </div>
 
                                                     <div class="col-6 mb-3 text-start">
@@ -131,14 +135,14 @@
                                                     <div class="col-12 mb-3 text-start">
                                                         <div class="mb-3">
                                                             <label for="formGroupExampleInput" class="form-label text-start">Indirizzo</label>
-                                                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input placeholder">
+                                                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Inserisci indirizzo">
                                                         </div>
                                                     </div>
 
                                                     <div class="col-6 mb-3 text-start">
                                                         <div class="mb-3">
-                                                            <label for="formGroupExampleInput" class="form-label">Indirizzo</label>
-                                                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input placeholder">
+                                                            <label for="formGroupExampleInput" class="form-label">Indirizzo (2)</label>
+                                                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Inserisci indirizzo (2)">
                                                         </div>
                                                     </div>
                                                     <div class="col-4 mb-3 text-start">
@@ -150,15 +154,14 @@
                                                     </div>
                                                     <div class="col-2 mb-3 text-start">
                                                         <div class="mb-3">
-                                                            <label for="formGroupExampleInput" class="form-label">Indirizzo</label>
-                                                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input placeholder">
+                                                            <label for="formGroupExampleInput" class="form-label">CAP</label>
+                                                            <input type="text" class="form-control" id="formGroupExampleInput">
                                                         </div>
                                                     </div>
 
-                                                    <div class="col-12 mb-3 text-start">
-                                                        <label for="formGroupExampleInput" class="form-label">Foto</label>
-                                                        <span class="input-group-text" id="basic-addon1">Scegli una foto</span>
-                                                        <input type="text" class="form-control" placeholder="Email" aria-label="email">
+                                                    <div class="mb-3 col-12 text-start">
+                                                        <label for="formFile" class="form-label">Scegli foto</label>
+                                                        <input class="form-control" type="file" id="formFile">
                                                     </div>
 
                                                     <div class="col-12 mb-3 text-start">
@@ -170,7 +173,7 @@
 
                                                     <div class="col-12 mb-3 text-start">
                                                         <button type="submit" class="btn btn-primary">Salva</button>
-                                                        <button type="submit" class="btn btn-primary">Svuota</button>
+                                                        <button type="submit" class="btn btn-warning">Svuota</button>
                                                     </div>
 
 

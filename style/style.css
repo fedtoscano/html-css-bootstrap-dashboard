@@ -34,11 +34,18 @@ section{
 #bell-icon{
     color: #ff9100;
 }
+#question-icon{
+    color: white;
+}
 
 @media screen and (max-width: 768px) {
 
     #navbar{
         width: 65px;
+    }
+
+    #offcanvasExample{
+        width: 100vw;
     }
 
     main{
