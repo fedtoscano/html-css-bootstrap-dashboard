@@ -31,15 +31,18 @@ section{
 .full-site{
     display: flex;
 }
+#bell-icon{
+    color: #ff9100;
+}
 
 @media screen and (max-width: 768px) {
 
     #navbar{
-        width: 100px;
+        width: 65px;
     }
 
     main{
         height: calc(100vh - 50px);
-        width: calc(100vw - 100px);
+        width: calc(100vw - 65px);
     }
 }
