@@ -4,9 +4,12 @@
 header{
     height: 50px;
 }
+
 #navbar{
     width: 200px;
     height: calc(100vh - 50px);
+    background-image: url(../img/img/sidebar-bg.png);
+    background-color: rgb(5, 30, 51);
 }
 
 main{
@@ -19,5 +22,5 @@ section{
 }
 
 .active-image{
-    width: 300px;
+    width: 100%;
 }
