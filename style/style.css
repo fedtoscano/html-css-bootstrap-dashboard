@@ -31,3 +31,15 @@ section{
 .full-site{
     display: flex;
 }
+
+@media screen and (max-width: 768px) {
+
+    #navbar{
+        width: 100px;
+    }
+
+    main{
+        height: calc(100vh - 50px);
+        width: calc(100vw - 100px);
+    }
+}

@@ -17,18 +17,21 @@
 </head>
 <body>
     <header>
-        <div class="container-fluid">
-            <div class="row">
+        <div class="container-fluid h-100">
+            <div class="row justify-content-evenly align-items-center h-100">
                 <div class="col-2">
                     <img src="./img/img/mobile-logo.png" alt="Boolean Mobile Logo" class="d-md-none" id="mobile-logo">
                     <img src="./img/img/logo.svg" alt="Boolean Main Logo" class="d-none d-md-block">
                 </div>
 
                 <div class="col-8 text-center">
-                    <input type="search" name="Cerca qui" class="w-100" placeholder="Search...">
+                    <input type="search" name="search" class="w-100" placeholder="Prova a cercare: Lezioni di Laravel...">
                 </div>
-                <div class="col-2">
-                    <i class="fa-solid fa-bell"></i>
+                <div class="col-2 d-flex justify-content-end align-items-center">
+                    <i class="fa-solid fa-list ms-4 d-none d-md-inline"></i>
+                    <i class="fa-solid fa-bell rounded ms-4"></i>
+                    <i class="fa-solid fa-question rounded-circle bg-secondary p-1 px-2 ms-4 d-none d-md-inline"></i>
+                    <i class="fa-solid fa-ellipsis-vertical ms-4 d-none d-md-inline"></i>
                 </div>
             </div>
         </div>
@@ -39,14 +42,14 @@
     
         <nav class="navbar navbar-expand-lg text-white m-0" id="navbar">
             <div class="container-fluid flex-column justify-content-between h-100">
-                <div class="row flex-column w-100 align-items-start">
-                    <a class="nav-link" href="#">Home</a>
-                    <a class="nav-link" href="#">Stats</a>
-                    <a class="nav-link" href="#">Signals</a>
+                <div class="row flex-column w-100 mt-2 text-center">
+                    <a class="nav-link" href="#"><span class="d-none d-md-inline me-1">Home</span> <i class="fa-solid fa-house"></i></a>
+                    <a class="nav-link" href="#"><span class="d-none d-md-inline me-1">Stats</span> <i class="fa-solid fa-chart-simple"></i></a>
+                    <a class="nav-link" href="#"><span class="d-none d-md-inline me-1">Signals</span> <i class="fa-solid fa-signal"></i></a>
                 </div>
     
-                <div class="row flex-column w-100 align-items-start">
-                    <a class="nav-link" href="#">Options</a>
+                <div class="row flex-column w-100 mb-2 text-center">
+                    <a class="nav-link" href="#"><i class="fa-solid fa-gear me-1"></i><span class="d-none d-md-inline">Admin</span></a>
                 </div>
             </div>
         </nav>
@@ -188,7 +191,7 @@
                             <section id="next-classes" class="border border-secondary-subtle rounded">
                                 <table class="table">
                                     <div class="section-title border-bottom border-secondary-subtle bg-secondary-subtle p-2">
-                                        <h1>Prossime classi</h1>
+                                        <h2>Prossime classi</h2>
                                     </div>
                                     <thead>
                                         <tr>
@@ -288,7 +291,7 @@
                         
                             <section id="faq" class="border border-secondary-subtle rounded">
                                 <div class=" p-2 border-bottom border-secondary-subtle bg-secondary-subtle p-2">
-                                    <h1>F.A.Q.</h1>
+                                    <h2>F.A.Q.</h2>
                                 </div>
                                 <div class="accordion" id="accordionExample">
                                     <div class="accordion-item">
@@ -337,7 +340,7 @@
                         <div class="col-12 large-2 p-4 col-lg-4">
                             <section id="todo" class="border border-secondary-subtle rounded">
                                 <div class="section-title border-bottom border-secondary-subtle bg-secondary-subtle p-2">
-                                    <h1>Todo</h1>
+                                    <h2>Todo</h2>
                                 </div>
                                     <ul class="list-group">
                                         <li class="list-group-item">
