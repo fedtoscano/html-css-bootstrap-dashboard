@@ -37,7 +37,7 @@
     <div class="full-site">
         <!-- NAVBAR -->
     
-        <nav class="navbar navbar-expand-lg text-white m-0 p-0" id="navbar">
+        <nav class="navbar navbar-expand-lg text-white m-0" id="navbar">
             <div class="container-fluid flex-column justify-content-between h-100">
                 <div class="row flex-column w-100 align-items-start">
                     <a class="nav-link" href="#">Home</a>
@@ -57,17 +57,19 @@
         <main class="overflow-auto bg-body-tertiary"> 
             <div class="container-fluid flex-column flex-lg-row p-0 m-0">
                 <div class="row">
-                        <div class="col-12 d-flex bg-primary text-white m-0">
+                        <!-- BOOLEAN PIANO BLAZE -->
+                        <div class="col-12 d-flex bg-primary text-white p-4 m-0">
                             <div class="col-12 col-md-4">
-                                <div class="upper">
+                                <div class="upper mb-2">
                                     <h1 class="d-inline">Boolean</h1>
                                     <span class="boolean-apps border border-primary rounded-pill">Piano Blaze</span>
                                 </div>
                                 <span class="boolean-apps border border-primary rounded-pill">3 app</span> 
                                 <i class="fa-solid fa-angles-right"></i>
-                                <span class="boolean-apps border border-primary rounded-pill">Boolean mobile app</span>
-                                <span class="boolean-apps border border-primary rounded-pill">Boolean web app</span>
-                                <span class="boolean-apps border border-primary rounded-pill">Boolean blog app</span>
+                                <span class="boolean-apps border border-primary rounded-pill d-none d-lg-inline">Boolean mobile app</span>
+                                <span class="boolean-apps border border-primary rounded-pill d-none d-lg-inline">Boolean web app</span>
+                                <span class="boolean-apps border border-primary rounded-pill d-none d-lg-inline">Boolean blog app</span>
+                                <span class="boolean-apps border border-primary rounded-pill d-inline d-lg-none">+</span>
                             </div>
     
                             <div class="col-12 col-md-4">
@@ -79,7 +81,7 @@
                                 <!-- OFFCANVAS -->
                                 <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">+</button>
                                 
-                                <div class="offcanvas offcanvas-end w-100 w-lg-50" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                                <div class="offcanvas offcanvas-end w-75" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
                                     <div class="offcanvas-header">
                                         <h5 class="offcanvas-title" id="offcanvasExampleLabel">Inserisci un nuovo studente</h5>
                                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -129,20 +131,20 @@
                                                         </div>
                                                     </div>
 
-                                                    <div class="col-6 text-start">
+                                                    <div class="col-6 mb-3 text-start">
                                                         <div class="mb-3">
                                                             <label for="formGroupExampleInput" class="form-label">Indirizzo</label>
                                                             <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input placeholder">
                                                         </div>
                                                     </div>
-                                                    <div class="col-4 text-start">
+                                                    <div class="col-4 mb-3 text-start">
                                                         <label for="inputState" class="form-label">State</label>
                                                         <select id="inputState" class="form-select">
                                                             <option selected>Choose...</option>
                                                             <option>...</option>
                                                         </select>
                                                     </div>
-                                                    <div class="col-2 text-start">
+                                                    <div class="col-2 mb-3 text-start">
                                                         <div class="mb-3">
                                                             <label for="formGroupExampleInput" class="form-label">Indirizzo</label>
                                                             <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input placeholder">
@@ -155,14 +157,14 @@
                                                         <input type="text" class="form-control" placeholder="Email" aria-label="email">
                                                     </div>
 
-                                                    <div class="col-12 text-start">
+                                                    <div class="col-12 mb-3 text-start">
                                                         <div class="form-check">
                                                             <input class="form-check-input" type="checkbox" id="gridCheck">
                                                             <label class="form-check-label" for="gridCheck">Seleziona per proseguire</label>
                                                         </div>
                                                     </div>
 
-                                                    <div class="col-12 text-start">
+                                                    <div class="col-12 mb-3 text-start">
                                                         <button type="submit" class="btn btn-primary">Salva</button>
                                                         <button type="submit" class="btn btn-primary">Svuota</button>
                                                     </div>
@@ -180,7 +182,7 @@
                             </div>
                         </div>
     
-                        <div class="col-12 large-1 col-lg-8 gx-2">
+                        <div class="col-12 large-1 col-lg-8 p-4">
                             <section id="next-classes" class="border border-secondary-subtle rounded">
                                 <table class="table">
                                     <div class="section-title border-bottom border-secondary-subtle bg-secondary-subtle p-2">
@@ -258,7 +260,7 @@
                             </section>
                         
                             <section id="faq" class="border border-secondary-subtle rounded">
-                                <div class="section-title border-bottom border-secondary-subtle bg-secondary-subtle">
+                                <div class=" p-2 border-bottom border-secondary-subtle bg-secondary-subtle p-2">
                                     <h1>F.A.Q.</h1>
                                 </div>
                                 <div class="accordion" id="accordionExample">
@@ -305,9 +307,9 @@
                             </section>
                         </div>
             
-                        <div class="col-12 large-2 col-lg-4">
+                        <div class="col-12 large-2 p-4 col-lg-4">
                             <section id="todo" class="border border-secondary-subtle rounded">
-                                <div class="section-title border-bottom border-secondary-subtle bg-secondary-subtle">
+                                <div class="section-title border-bottom border-secondary-subtle bg-secondary-subtle p-2">
                                     <h1>Todo</h1>
                                 </div>
                                     <ul class="list-group">
