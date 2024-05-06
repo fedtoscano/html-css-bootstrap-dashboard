@@ -28,6 +28,11 @@ section{
     width: 100%;
 }
 
+.class-image{
+    width: 30px;
+    max-width: 40px;
+}
+
 .full-site{
     display: flex;
 }
@@ -37,22 +42,27 @@ section{
 #question-icon{
     color: white;
 }
-    #offcanvasExample{
-        width: 75%;
+#offcanvasExample{
+    width: 75%;
     }
+    
+    @media screen and (max-width: 768px) {
+        
+        #navbar{
+            width: 65px;
+        }
+        
+        #offcanvasExample{
+            width: 100%;
+        }
+        
+        main{
+            height: calc(100vh - 50px);
+            width: calc(100vw - 65px);
+        }
 
-@media screen and (max-width: 768px) {
+}
 
-    #navbar{
-        width: 65px;
-    }
-
-    #offcanvasExample{
-        width: 100%;
-    }
-
-    main{
-        height: calc(100vh - 50px);
-        width: calc(100vw - 65px);
-    }
+tbody tr th{
+    background-color: #ff9100;
 }
