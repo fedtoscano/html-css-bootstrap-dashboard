@@ -59,10 +59,10 @@
         <!-- MAIN CONTENT -->
         <main class="overflow-auto bg-body-tertiary"> 
             <div class="container-fluid  p-0 m-0">
-                <div class="row">
+                <div class="row w-100">
                         <!-- BOOLEAN PIANO BLAZE -->
                         <div class="col-12 d-flex flex-column flex-lg-row bg-primary text-white p-4 m-0">
-                            <div class="col-12 col-lg-4 mb-2 mb-lg-0">
+                            <div class="col-12 col-lg-4 mb-2 mb-lg-0 order-2 order-lg-1">
                                 <div class="upper mb-2">
                                     <h1 class="d-inline">Boolean</h1>
                                     <span class="boolean-apps border border-primary rounded-pill">Piano Blaze</span>
@@ -75,12 +75,12 @@
                                 <span class="boolean-apps border border-primary rounded-pill d-inline d-lg-none">+</span>
                             </div>
     
-                            <div class="col-12 col-lg-4 mb-2 mb-lg-0">
+                            <div class="col-12 col-lg-4 mb-2 mb-lg-0 order-3 order-lg-2">
                                 <p>Studenti online negli ultimi 30 minuti</p>
                                 <h2>125</h2>
                             </div>
 
-                            <div class="col-12 col-lg-4 text-lg-center mb-2 mb-lg-0 align-items-center">
+                            <div class="col-12 col-lg-4 text-lg-center mb-2 mb-lg-0 align-items-center order-1 order-lg-3">
                                 <p class="d-inline">Nuovo studente</p>
                                 <!-- OFFCANVAS -->
                                 <button class="btn btn-primary border border-white rounded color-white py-2 px-3 ms-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">+</button>
@@ -191,6 +191,8 @@
                         
                         <!-- MAIN CONTENT -->
                         <div class="col-12 large-1 col-lg-8 p-4">
+
+                            <!-- TABLE -->
                             <section id="next-classes" class="border border-secondary-subtle rounded">
                                 <table class="table table-sm">
                                     <div class="section-title border-bottom border-secondary-subtle bg-secondary-subtle p-2">
@@ -315,6 +317,7 @@
                                     </table>
                             </section>
                         
+                            <!-- ACCORDION -->
                             <section id="faq" class="border border-secondary-subtle rounded">
                                 <div class=" p-2 border-bottom border-secondary-subtle bg-secondary-subtle p-2">
                                     <h2>F.A.Q.</h2>
@@ -363,8 +366,11 @@
                                 </div>
                             </section>
                         </div>
-            
-                        <div class="col-12 large-2 p-4 col-lg-4">
+                        
+                        <!-- MAIN CONTENT (2) -->
+                        <div class="col-12 large-2 col-lg-4 p-4">
+
+                            <!-- LIST -->
                             <section id="todo" class="border border-secondary-subtle rounded">
                                 <div class="section-title border-bottom border-secondary-subtle bg-secondary-subtle p-2">
                                     <h2>Todo</h2>
@@ -383,7 +389,7 @@
                                             <label class="form-check-label" for="thirdCheckbox">Controllare username Github studenti</label>
                                         </li>
                                         </ul>
-                                </section>
+                            </section>
                         
                             <section id="user-active" class="border border-secondary-subtle rounded">
                                 <img src="./img/img/stats.jpeg" alt="Stats of user active" class="active-image">

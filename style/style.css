@@ -16,10 +16,12 @@ main{
     height: calc(100vh - 50px);
     width: calc(100vw - 200px);
 }
+
 .boolean-apps{
     background-color: #165bba;
     padding: 0 .5em;
 }
+
 section{
     margin-bottom: 2em;
 }
